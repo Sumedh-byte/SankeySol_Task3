@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width:100%;
+    /* border :2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.container .table{
+    display: inline-block;
+    border: 1px black solid;
+    visibility: hidden;
+}
+table,td,th {
+    margin: 5px;
+    padding: 10px;
+    /* border-collapse:collapse; */
+    border: 1px rgb(87, 90, 86) dotted;
+    
+}
+th{
+    background-color: rgba(0, 0, 0, 0.882);
+    color: white;
+    letter-spacing: 1px;
+}
+
+#loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blanchedalmond; */
+    visibility :visible;
+    margin:auto;
+
+}
